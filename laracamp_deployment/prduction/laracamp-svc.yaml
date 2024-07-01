@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: laracamp
+  namespace: laracamp-prod
+spec:
+  selector:
+    app: laracamp-prod
+  ports:
+    - port: 8000
+      name: http
+      protocol: TCP
+      targetPort: 80
+  type: NodePort
