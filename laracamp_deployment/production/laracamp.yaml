@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: laracamp
-      image: airist/laracamp:release-v1.0.1
+      image: airist/laracamp:release-v1.0.3
       imagePullPolicy: IfNotPresent
       resources:
         requests:
