@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: laracamp
-      image: airist/laracamp:staging-130
+      image: airist/laracamp:staging-135
       imagePullPolicy: IfNotPresent
       resources:
         requests:
